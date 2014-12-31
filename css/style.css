@@ -1,12 +1,20 @@
+html, body {
+    height: 100%;
+}
 
 body {
-    background-color: #204d74;
     color: #ffffff;
+    background: url("../img/background.jpg") no-repeat fixed 50% 50%;
+    background-size: 100% 100%;
 }
 
 #container {
-    width: 600px;
+    overflow: hidden;
+    min-height: 100%;
+    width: 650px;
     margin: 0 auto;
+    padding: 0 35px 20px 35px;
+    background-color: #204d74;
 }
 
 #avatar {
@@ -67,33 +75,42 @@ body {
     font-size: 11px;
 }
 
+#works-body .work-date::before {
+    content: "(";
+}
+
+#works-body .work-date::after {
+    content: " released)";
+}
+
 #contact-header {
     margin: 50px 0 30px 0;
     text-align: center;
+}
+
+#contact-body {
+    overflow: hidden;
+    width: 360px;
+    margin: 0 auto;
 }
 
 #contact-body .contact-icon {
     float: left;
     height: 60px;
     width: 60px;
+    margin-right: 30px;
 }
 
-#contact-body .contact-icon.blog {
-    background: url("../img/hatenablog.svg") center center no-repeat;
-    background-size: 60px;
+#contact-body .contact-icon.last {
+    margin-right: 0;
 }
 
-#contact-body .contact-icon.twitter {
-    background: url("../img/twitter.svg") center center no-repeat;
-    background-size: 60px;
+#contact-body .contact-icon a {
+    display: inline-block;
 }
 
-#contact-body .contact-icon.github {
-    background: url("../img/github.svg") center center no-repeat;
-    background-size: 60px;
-}
-
-#contact-body .contact-icon.gmail {
-    background: url("../img/mail.svg") center center no-repeat;
-    background-size: 60px;
+#contact-body .contact-icon object {
+    height: 60px;
+    width: 60px;
+    pointer-events: none;
 }
