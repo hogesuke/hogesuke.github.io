@@ -59,28 +59,46 @@ body {
 }
 
 #works-body .work {
-    margin-bottom: 20px;
+    margin-bottom: 10px;
+    clear: both;
+    overflow: hidden;
+}
+
+#works-body .work .work-container-left {
+    float: left;
+    margin-right: 15px;
+}
+
+#works-body .work .work-container-right {
+    margin-left: 135px;
+}
+
+#works-body .work-img img {
+    height: 90px;
+    width: 120px;
+    border: solid 1px #bebebe;
 }
 
 #works-body .work-name {
+    padding-left: 10px;
     font-size: 18px;
+    border-left: solid 3px #B8B474;
+}
+
+#works-body .work-link {
+    margin-bottom: 5px;
 }
 
 #works-body .work-link a {
-    color: #d4d3ff;
+    color: #B8B474;
 }
 
 #works-body .work-date {
-    margin-left: 10px;
-    font-size: 11px;
-}
-
-#works-body .work-date::before {
-    content: "(";
+    font-size: 12px;
 }
 
 #works-body .work-date::after {
-    content: " released)";
+    content: " released";
 }
 
 #contact-header {
