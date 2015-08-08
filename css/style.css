@@ -20,7 +20,6 @@ body {
 #avatar {
     height: 80px;
     width: 80px;
-    background-color: #ffffff;
     background: #ffffff url("../img/avatar.png") center center no-repeat;
     background-size: 55px;
     border-radius: 40px;
