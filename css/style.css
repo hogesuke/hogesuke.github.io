@@ -3,24 +3,28 @@ html, body {
 }
 
 body {
-    color: #ffffff;
+    color: #4f4f4f;
     background: url("../img/background.jpg") no-repeat fixed 50% 50%;
     background-size: cover;
+}
+
+h2 {
+    color: #3e3e3e;
 }
 
 #container {
     overflow: hidden;
     min-height: 100%;
-    width: 650px;
+    width: 700px;
     margin: 0 auto;
     padding: 0 35px 20px 35px;
-    background-color: #204d74;
+    background-color: #f8f8f8;
 }
 
 #avatar {
     height: 80px;
     width: 80px;
-    background: #ffffff url("../img/avatar.png") center center no-repeat;
+    background: url("../img/avatar.png") center center no-repeat;
     background-size: 55px;
     border-radius: 40px;
 }
@@ -58,7 +62,7 @@ body {
 }
 
 #works-body .work {
-    margin-bottom: 10px;
+    margin-bottom: 20px;
     clear: both;
     overflow: hidden;
 }
@@ -75,19 +79,18 @@ body {
 #works-body .work-img img {
     height: 90px;
     width: 120px;
-    border: solid 1px #bebebe;
 }
 
 #works-body .work-name {
-    font-size: 18px;
+    font-size: 23px;
 }
 
 #works-body .work-link {
-    margin-bottom: 5px;
+    margin-bottom: 7px;
 }
 
 #works-body .work-link a {
-    color: #B8B474;
+    color: #6176a9;
 }
 
 #works-body .work-date {
