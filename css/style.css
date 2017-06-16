@@ -7,6 +7,7 @@ body {
     background: url("../img/background_ocean.jpg") no-repeat fixed 50% 50%;
     background-size: cover;
     -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
 
 h2 {
