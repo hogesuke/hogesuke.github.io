@@ -6,6 +6,7 @@ body {
     color: #4f4f4f;
     background: url("../img/background_ocean.jpg") no-repeat fixed 50% 50%;
     background-size: cover;
+    -webkit-font-smoothing: antialiased;
 }
 
 h2 {
@@ -37,8 +38,7 @@ h2 {
 #about-body {
     overflow: hidden;
     width: 250px;
-    margin: 0 auto;
-    margin-bottom: 50px;
+    margin: 0 auto 50px auto;
 }
 
 #about-body #about-body-left {
@@ -80,7 +80,6 @@ h2 {
 #works-body .work-img img {
     height: 120px;
     width: 160px;
-    border-radius: 5px;
 }
 
 #works-body .work-name {
@@ -106,10 +105,9 @@ h2 {
 #works-body .work-stack span {
     margin-right: 2px;
     padding: 2px 6px;
-    border-radius: 10px;
     font-size: 12px;
-    color: #ffffff;
-    background-color: #a1a1a1;
+    color: #656667;
+    background-color: #e0e0e0;
 }
 
 #works-body .work-date {
