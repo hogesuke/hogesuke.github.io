@@ -4,6 +4,7 @@ html, body {
 
 body {
   color: #4f4f4f;
+  background: url("../img/background_ocean.jpg") no-repeat fixed 50% 50%;
   background-size: cover;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -17,6 +18,8 @@ h2 {
 #container {
   overflow: hidden;
   min-height: 100%;
+  width: 900px;
+  margin: 0 auto;
   padding: 10px 35px 20px 35px;
   background-color: #f8f8f8;
 }
@@ -31,12 +34,13 @@ h2 {
 
 #about-header {
   margin-bottom: 30px;
+  text-align: center;
 }
 
 #about-body {
   overflow: hidden;
   width: 250px;
-  margin-bottom: 50px;
+  margin: 0 auto 50px auto;
 
   #about-body-left {
     float: left;
@@ -56,6 +60,7 @@ h2 {
 #works-header {
   clear: both;
   margin-bottom: 40px;
+  text-align: center;
 }
 
 #works-body {
@@ -122,10 +127,14 @@ h2 {
 
 #contact-header {
   margin: 50px 0 30px 0;
+  text-align: center;
 }
 
 #contact-body {
   overflow: hidden;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
 
   .contact-icon {
     height: 60px;
