@@ -53,3 +53,5 @@ css/bootstrap.css
 css/bootstrap-theme.css
 js/bootstrap.js
 js/npm.js
+
+node_modules
